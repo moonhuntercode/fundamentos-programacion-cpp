@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor1{
+    background-image: url(./img/fondo-tech.png);
+    background-attachment: fixed;
+    background-position: right;
+    -webkit-text-stroke: 0.5px black ;
+    height: 40vh;
+    background-repeat: repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.codigo{
+    padding: 10%;
+    margin: 10%;
+    background-color: rgb(39, 39, 39);
+}
+@media screen and (min-width:360px) {
+    .codigo{
+        font-size: 20px;
+        padding: 0;
+        margin: 10px;
+    }
+}
+.keyword{
+    color: aqua;
+}
+.llaves1{
+    color: rgb(0, 255, 149);
+}
